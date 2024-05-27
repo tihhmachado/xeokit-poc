@@ -1,0 +1,20 @@
+<div #viewerContainer id="viewerContainer">
+  <div id="rightSideMenu">
+    <div id="modelSelection">
+      <input
+        type="checkbox"
+        id="chkArq"
+        (change)="onModelChange($event, 'Arquitetura')"
+      />
+      <label for="chkArq">Arquitetura</label>
+      <input
+        type="checkbox"
+        id="chkEstr"
+        (change)="onModelChange($event, 'Estrutura')"
+      />
+      <label for="chkEstr">Estrutura</label>
+    </div>
+    <div #treeView id="treeView"></div>
+  </div>
+  <canvas #viewerCanvas id="viewerCanvas"></canvas>
+</div>

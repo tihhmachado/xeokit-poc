@@ -1,0 +1,18 @@
+#viewerContainer {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#viewerCanvas {
+  width: 80%;
+  height: 100%;
+}
+
+#rightSideMenu {
+  width: 20%;
+  height: 100%;
+  background-color: #f0f0f0;
+}
